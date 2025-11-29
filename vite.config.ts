@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
   return {
     plugins: [react()],
-    base: "/Boy's Dairy/", // Use relative paths for GitHub Pages compatibility
+    base: "/Boys-Dairy/", // Use relative paths for GitHub Pages compatibility
     define: {
       // Polyfill process.env for the existing code structure
       'process.env': {
